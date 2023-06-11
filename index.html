@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea #1</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+
+</head>
+
+<body>
+
+    <br><br>
+
+    <div class="container">
+        <a class="btn btn-success" href="#" role="button" onclick="solicitarDatos()">Ejercicio 1</a>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <table class="table table-striped-columns">
+          <thead>
+            <tr>
+              <th>Menos de 40</th>
+              <th>Entre 40 y 49</th>
+              <th>Entre 50 y 59</th>
+              <th>Mas O igual a 60</th>
+            </tr>
+          </thead>
+          <tbody id="tbody1">
+    
+          </tbody>
+        </table>
+    </div>  
+
+    <br><br>
+
+    <div class="container">
+        <table class="table table-striped-columns">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Peso</th>
+            </tr>
+          </thead>
+          <tbody id="tbody2">
+    
+          </tbody>
+        </table>
+    </div>    
+    
+    <br>
+    <hr>
+    <br>
+
+    <div class="container">
+        <a class="btn btn-success" href="#" role="button" onclick="calcular()">Ejercicio 2</a>
+    </div>
+    <br>
+
+    <br>
+    <hr>
+    <br>
+
+    <div class="container">
+        <h2>Ejercicio 3</h2>
+    </div>
+       
+    <br><br>
+
+    <div class="container" style="width: 50em; background-color: rgb(175, 184, 184); border-radius: 20px; color: aliceblue;" >
+        <br>
+        <h2>Formulario del Estudiante</h2>
+        
+        <div class="mb-3">
+            <b><label for="cedula" class="form-label">Cédula</label></b>
+            <input type="number" class="form-control" id="cedula" placeholder="Ingresa cédula del estudiante" minlength="7" maxlength="8" step="1">
+        </div>
+        <div class="mb-3">
+            <b><label for="nombre" class="form-label">Nombre</label></b>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa nombre del estudiante">
+        </div>
+        <div class="mb-3">
+            <b><label for="mat" class="form-label">Nota de Matemáticas</label></b>
+            <input type="number" class="form-control" id="mat" placeholder="Ingresa nota de Matemáticas del estudiante">
+        </div>
+        <div class="mb-3">
+            <b><label for="fis" class="form-label">Nota de Física</label></b>
+            <input type="number" class="form-control" id="fis" placeholder="Ingresa nota de Física del estudiante">
+        </div>
+        <div class="mb-3">
+            <b><label for="prog" class="form-label">Nota de Programación</label></b>
+            <input type="number" class="form-control" id="prog" placeholder="Ingresa nota de Programación del estudiante">
+        </div>
+        <br>
+        <button type="button" class="btn btn-success" id="btn" onclick="agregarEstudiante2()">Agregar estudiante</button>
+        <br><br>
+    </div>
+    
+
+    <br><br>
+    <div class="container"><h2>Estadisticas</h2></div>
+    <div id="promedios" class="container" style="width: 50em; background-color: rgb(175, 184, 184); border-radius: 10px; color: aliceblue;" ></div>
+    <br>
+    <div id="estadisticas" class="container" style="width: 50em; background-color: rgb(175, 184, 184); border-radius: 10px; color: aliceblue;" ></div>
+
+    <br><br>
+    <div></div>
+
+    <script src="js/funciones.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
