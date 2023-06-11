@@ -253,9 +253,9 @@ function calcularEstadisticas() {
     Todos aprobados: ${todosAprobados}<br>
     Uno aprobado: ${unoAprobado}<br>
     Dos aprobados: ${dosAprobados}<br>
-    Máximo de matemáticas: ${maximoMatematicas.toFixed(2)}<br>
-    Máximo de física: ${maximoFisica.toFixed(2)} <br>
-    Máximo de programación: ${maximoProgramacion.toFixed(2)}<br><br>
+    Máximo de matemáticas: ${maximoMatematicas}<br>
+    Máximo de física: ${maximoFisica} <br>
+    Máximo de programación: ${maximoProgramacion}<br><br>
     
     `;
     document.getElementById("estadisticas").innerHTML = output4;
